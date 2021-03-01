@@ -57,13 +57,18 @@ public class CardParser
 	 
 	public void sortLowestCostToHighestCost()
 	{
+		 for(int max = 0;)
+		 {
+			 for maxindex
+		 }
 		
-		//this methods job is to take our ArrayList of minions and re-arrange it so that
-		//it is in the order of cards with the lowest cost first, and cards with the highest
-		//cost last.
-		//Note: this.theMinions.get(3).getCost() will give you the cost of card #3
-		//Note: this.theMinions.remove(3) will remove the card that used to be at bucket 3
-		//you will need to cobble together your own algorithm for getting this arraylist sorted
 		
 	}
+}
+
+private HearthstoneCard findSmallest()
+{
+	HearthstoneCard currWinner = this.theMinions.get(0);
+	
+	return currWinner;
 }
